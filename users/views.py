@@ -7,7 +7,6 @@ from django.contrib.auth.models import User
 # from .models import userDetails
 
 
-login_required(login_url='login')
 def index(request):
     return render(request, 'users/index.html')
 
@@ -26,16 +25,17 @@ def admin(request):
 
 def user_login(request):
     if request.method == "POST":
-        name=request.POST.get('name')
-        password=request.POST.get('password')
+        name=request.POST.get('your_name')
+        password=request.POST.get('your_pass')
 
         user=authenticate(request, username=name, password=password)
+        print(user)
         if user is not None:
 
             if user.is_superuser:
                 login(request,user)
                 request.session['admin_id']=user.id
-                return redirect("trip")
+                return redirect("admin-dash")
             elif user.is_staff:
                 login(request,user)
                 request.session['admin_id']=user.id
@@ -81,4 +81,5 @@ def tnc(request):
 #     }
 #     return render(request, "users/UserData.html",context)
     # return render(request, 'users/register.html')
-
+def dashboard(request):
+    return render(request, 'admin/templates/admin/Material Dashboard 2 by Creative Tim.html')

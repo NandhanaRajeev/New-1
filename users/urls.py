@@ -7,9 +7,7 @@ urlpatterns = [
     path('blog',views.blog,name="blog"),
     path('login',views.user_login,name="login"),
     path('register',views.register,name="register"),
-<<<<<<< HEAD
-    path('admin',views.admin,name="admin"),
-=======
+    path('admin',views.admin,name="admin-dash"),
     path('tnc',views.tnc,name="tnc"),
->>>>>>> db7c3855c8103627b9dc557cc51315a666ce118f
+    path('dashboard',views.dashboard,name="dashboard"),
     ]

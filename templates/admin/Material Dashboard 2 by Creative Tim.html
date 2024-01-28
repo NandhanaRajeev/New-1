@@ -1,27 +1,23 @@
 {% extends 'bases/userbase.html' %}
 {% load static %}
 {% block content %}
-<!DOCTYPE html>
-<!-- saved from url=(0064)http://localhost:63342/material-dashboard-2/pages/dashboard.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="76x76" href="{% static 'admin\Material Dashboard 2 by Creative Tim_files/http://localhost:63342/material-dashboard-2/assets/img/apple-icon.png'%}">
-  <link rel="icon" type="image/png" href="{% static 'admin\Material Dashboard 2 by Creative Tim_files/http://localhost:63342/material-dashboard-2/assets/img/favicon.png'%}">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="{% static 'admin/Material Dashboard 2 by Creative Tim_files/http://localhost:63342/material-dashboard-2/assets/img/apple-icon.png'%}">
+  <link rel="icon" type="image/png" href="http://localhost:63342/material-dashboard-2/assets/img/favicon.png">
   <title>
     Admin Dashboard
   </title>
   <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="Material Dashboard 2 by Creative Tim_files/css">
   <!-- Nucleo Icons -->
-  <link href="Material Dashboard 2 by Creative Tim_files/nucleo-icons.css" rel="stylesheet">
-  <link href="Material Dashboard 2 by Creative Tim_files/nucleo-svg.css" rel="stylesheet">
+  <link href="{% static 'admin/Material Dashboard 2 by Creative Tim_files/nucleo-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'admin/Material Dashboard 2 by Creative Tim_files/nucleo-svg.css' %}" rel="stylesheet">
   <!-- Font Awesome Icons -->
-  <script src="Material Dashboard 2 by Creative Tim_files/42d5adcbca.js.download" crossorigin="anonymous"></script>
+  <script src="{% static 'Material Dashboard 2 by Creative Tim_files/42d5adcbca.js.download' %}" crossorigin="anonymous"></script>
   <!-- Material Icons -->
-  <link href="Material Dashboard 2 by Creative Tim_files/icon" rel="stylesheet">
+  <link href="{% static 'admin/Material Dashboard 2 by Creative Tim_files/icon' %}" rel="stylesheet">
   <!-- CSS Files -->
-  <link id="pagestyle" href="Material Dashboard 2 by Creative Tim_files/material-dashboard.css" rel="stylesheet">
+  <link id="pagestyle" href="{% static 'admin/Material Dashboard 2 by Creative Tim_files/material-dashboard.css' %}" rel="stylesheet">
 </head>
 
 <body class="g-sidenav-show bg-gray-200" data-new-gr-c-s-check-loaded="14.1152.0" data-gr-ext-installed="">
@@ -83,7 +79,7 @@
                   <a class="dropdown-item border-radius-md" href="javascript:;">
                     <div class="d-flex py-1">
                       <div class="my-auto">
-                        <img src="Material Dashboard 2 by Creative Tim_files/team-2.jpg" class="avatar avatar-sm  me-3 ">
+                        <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-2.jpg'%}" class="avatar avatar-sm  me-3 ">
                       </div>
                       <div class="d-flex flex-column justify-content-center">
                         <h6 class="text-sm font-weight-normal mb-1">
@@ -101,7 +97,7 @@
                   <a class="dropdown-item border-radius-md" href="javascript:;">
                     <div class="d-flex py-1">
                       <div class="my-auto">
-                        <img src="Material Dashboard 2 by Creative Tim_files/logo-spotify.svg" class="avatar avatar-sm bg-gradient-dark  me-3 ">
+                        <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/logo-spotify.svg'%}" class="avatar avatar-sm bg-gradient-dark  me-3 ">
                       </div>
                       <div class="d-flex flex-column justify-content-center">
                         <h6 class="text-sm font-weight-normal mb-1">
@@ -336,16 +332,16 @@
                       <td>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Ryan Tompson">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-1.jpg" alt="team1">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-1.jpg'%}" alt="team1">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Romina Hadid">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-2.jpg" alt="team2">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-2.jpg'%}" alt="team2">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Alexander Smith">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-3.jpg" alt="team3">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-3.jpg'%}" alt="team3">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Jessica Doe">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-4.jpg" alt="team4">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-4.jpg'%}" alt="team4">
                           </a>
                         </div>
                       </td>
@@ -379,16 +375,16 @@
                       <td>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Ryan Tompson">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-1.jpg" alt="team1">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-1.jpg'%}" alt="team1">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Romina Hadid">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-2.jpg" alt="team2">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-2.jpg'%}" alt="team2">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Alexander Smith">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-3.jpg" alt="team3">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-3.jpg'%}" alt="team3">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Jessica Doe">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-4.jpg" alt="team4">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-4.jpg'%}" alt="team4">
                           </a>
                         </div>
                       </td>
@@ -421,16 +417,16 @@
                       <td>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Ryan Tompson">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-1.jpg" alt="team1">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-1.jpg'%}" alt="team1">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Romina Hadid">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-2.jpg" alt="team2">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-2.jpg'%}" alt="team2">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Alexander Smith">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-3.jpg" alt="team3">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-3.jpg'%}" alt="team3">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Jessica Doe">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-4.jpg" alt="team4">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-4.jpg'%}" alt="team4">
                           </a>
                         </div>
                       </td>
@@ -463,16 +459,16 @@
                       <td>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Ryan Tompson">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-1.jpg" alt="team1">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-1.jpg'%}" alt="team1">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Romina Hadid">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-2.jpg" alt="team2">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-2.jpg'%}" alt="team2">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Alexander Smith">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-3.jpg" alt="team3">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-3.jpg'%}" alt="team3">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Jessica Doe">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-4.jpg" alt="team4">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-4.jpg'%}" alt="team4">
                           </a>
                         </div>
                       </td>
@@ -505,16 +501,16 @@
                       <td>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Ryan Tompson">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-1.jpg" alt="team1">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-1.jpg'%}" alt="team1">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Romina Hadid">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-2.jpg" alt="team2">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-2.jpg'%}" alt="team2">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Alexander Smith">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-3.jpg" alt="team3">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-3.jpg'%}" alt="team3">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Jessica Doe">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-4.jpg" alt="team4">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-4.jpg'%}" alt="team4">
                           </a>
                         </div>
                       </td>
@@ -547,16 +543,16 @@
                       <td>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Ryan Tompson">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-1.jpg" alt="team1">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-1.jpg'%}" alt="team1">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Romina Hadid">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-2.jpg" alt="team2">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-2.jpg'%}" alt="team2">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Alexander Smith">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-3.jpg" alt="team3">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-3.jpg'%}" alt="team3">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Jessica Doe">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-4.jpg" alt="team4">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-4.jpg'%}" alt="team4">
                           </a>
                         </div>
                       </td>
@@ -589,16 +585,16 @@
                       <td>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Ryan Tompson">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-1.jpg" alt="team1">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-1.jpg'%}" alt="team1">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Romina Hadid">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-2.jpg" alt="team2">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-2.jpg'%}" alt="team2">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Alexander Smith">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-3.jpg" alt="team3">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-3.jpg'%}" alt="team3">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Jessica Doe">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-4.jpg" alt="team4">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-4.jpg'%}" alt="team4">
                           </a>
                         </div>
                       </td>
@@ -631,16 +627,16 @@
                       <td>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Ryan Tompson">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-1.jpg" alt="team1">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-1.jpg'%}" alt="team1">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Romina Hadid">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-2.jpg" alt="team2">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-2.jpg'%}" alt="team2">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Alexander Smith">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-3.jpg" alt="team3">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-3.jpg'%}" alt="team3">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Jessica Doe">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-4.jpg" alt="team4">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-4.jpg'%}" alt="team4">
                           </a>
                         </div>
                       </td>
@@ -674,10 +670,10 @@
                       <td>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Romina Hadid">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-3.jpg" alt="team8">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-3.jpg'%}" alt="team8">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Jessica Doe">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-1.jpg" alt="team9">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-1.jpg'%}" alt="team9">
                           </a>
                         </div>
                       </td>
@@ -711,16 +707,16 @@
                       <td>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Ryan Tompson">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-4.jpg" alt="user1">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-4.jpg'%}" alt="user1">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Romina Hadid">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-3.jpg" alt="user2">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-3.jpg'%}" alt="user2">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Alexander Smith">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-4.jpg" alt="user3">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-4.jpg'%}" alt="user3">
                           </a>
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Jessica Doe">
-                            <img src="Material Dashboard 2 by Creative Tim_files/team-1.jpg" alt="user4">
+                            <img src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/team-1.jpg'%}" alt="user4">
                           </a>
                         </div>
                       </td>
@@ -839,11 +835,11 @@
     </div>
   <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></div>
   <!--   Core JS Files   -->
-  <script src="Material Dashboard 2 by Creative Tim_files/popper.min.js.download"></script>
-  <script src="Material Dashboard 2 by Creative Tim_files/bootstrap.min.js.download"></script>
-  <script src="Material Dashboard 2 by Creative Tim_files/perfect-scrollbar.min.js.download"></script>
-  <script src="Material Dashboard 2 by Creative Tim_files/smooth-scrollbar.min.js.download"></script>
-  <script src="Material Dashboard 2 by Creative Tim_files/chartjs.min.js.download"></script>
+  <script src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/popper.min.js.download'%}"></script>
+  <script src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/bootstrap.min.js.download'%}"></script>
+  <script src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/perfect-scrollbar.min.js.download'%}"></script>
+  <script src="{% static 'Material Dashboard 2 by Creative Tim_files/smooth-scrollbar.min.js.download' %}"></script>
+  <script src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/chartjs.min.js.download'%}"></script>
   <script>
     var ctx = document.getElementById("chart-bars").getContext("2d");
 
@@ -1101,9 +1097,9 @@
     }
   </script>
   <!-- Github buttons -->
-  <script async="" defer="" src="Material Dashboard 2 by Creative Tim_files/buttons.js.download"></script>
+  <script async="" defer="" src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/buttons.js.download'%}"></script>
   <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="Material Dashboard 2 by Creative Tim_files/material-dashboard.min.js.download"></script>
+  <script src="{% static 'admin/Material Dashboard 2 by Creative Tim_files/material-dashboard.min.js.download'%}"></script>
 
 
 </body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
