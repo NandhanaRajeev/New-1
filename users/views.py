@@ -66,7 +66,8 @@ def register(request):
     else:
         return render(request, 'users/register.html')
 
-
+def tnc(request):
+    return render(request, 'users/tnc.html')
 # def userData(request):
 #     context={
 
