@@ -17,6 +17,13 @@ def contact(request):
 def blog(request):
     return render(request, 'users/blog.html')
 
+
+def register(request):
+    return render(request, 'users/register.html')
+
+def admin(request):
+    return render(request, 'admin/Material Dashboard 2 by Creative Tim.html')
+
 def user_login(request):
     if request.method == "POST":
         name=request.POST.get('name')
